@@ -115,11 +115,9 @@ prev_zoom_out_click = 0
 
 
 # In[8]:
-from flask import Flask
-server = Flask(__name__)
-
 # Dash App
 app = dash.Dash(__name__, external_stylesheets=[dbc.themes.BOOTSTRAP])
+server = app.server
 
 # In[9]:
 
