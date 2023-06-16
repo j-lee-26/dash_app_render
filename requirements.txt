@@ -6,4 +6,4 @@ dash-bootstrap-components
 plotly == 5.9.0
 dash-renderer 
 gunicorn==20.1.0
-Werkzeug>=2.0.0
+Werkzeug ==2.0.0
