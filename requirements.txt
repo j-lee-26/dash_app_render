@@ -5,3 +5,4 @@ dash-core-components
 dash-bootstrap-components 
 plotly == 5.9.0
 dash-renderer 
+flask
