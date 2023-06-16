@@ -16,8 +16,7 @@ from dash.dependencies import Input, Output, State
 # In[2]:
 
 
-mapbox_access_token = open('mapbox_token.txt').read()
-
+#mapbox_access_token = open('mapbox_token.txt').read()
 import os
 mapbox_access_token = os.environ.get('MAPBOX_TOKEN')
 
@@ -119,7 +118,7 @@ prev_zoom_out_click = 0
 
 
 # Dash App
-app = dash.Dash(__name__, external_stylesheets=[dbc.themes.BOOTSTRAP])
+app = Dash(__name__, external_stylesheets=[dbc.themes.BOOTSTRAP])
 server = app.server
 
 # In[9]:
