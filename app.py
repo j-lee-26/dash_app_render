@@ -120,7 +120,7 @@ prev_zoom_out_click = 0
 
 # Dash App
 app = dash.Dash(__name__, external_stylesheets=[dbc.themes.BOOTSTRAP])
-
+server = app.server
 
 # In[9]:
 
