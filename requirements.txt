@@ -6,3 +6,4 @@ dash-bootstrap-components
 plotly == 5.9.0
 dash-renderer 
 flask
+gunicorn==20.1.0
